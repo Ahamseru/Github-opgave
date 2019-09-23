@@ -62,13 +62,11 @@ body{
 }
 
 #gitdescription {
-    grid-area: b;
     background-color: rgb(100, 20, 138);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #githubdescription {
-    grid-area: b;
     background-color: rgb(100, 20, 138);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
