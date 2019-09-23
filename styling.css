@@ -1,0 +1,48 @@
+body{
+    background-image: url(Git-Icon-White.png);
+    background-color: gray;
+    background-size: 10em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a a a a"
+    "b b b b"
+    "c c d d"
+    "c c d d"
+    "e e e e"
+}
+
+#title{
+    grid-area: a;
+    text-align: center;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+#description{
+    grid-area: b;
+    text-align: center;
+    border-radius: 25px;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-weigh
+}
+
+#gitbox{
+    grid-area: c;
+    border-radius: 25px;
+}
+
+#githubbox{
+    grid-area: d;
+    border-radius: 25px;
+}
+
+#copyright{
+    grid-area: e;
+    text-align: center;
+    background-color: gray;
+    font-weight: bold;
+}
