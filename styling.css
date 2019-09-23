@@ -71,13 +71,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#gitbox {
+#gitlogo {
     grid-area: c;
 
 
 }
 
-#githubbox {
+#githublogo {
     grid-area: d;
 
 
@@ -97,6 +97,24 @@ body {
 
 
 }
+
+#picture1 {
+    grid-area: c;
+}
+
+#picture2 {
+    grid-area: d;
+}
+
+#picture3 {
+    grid-area: e;
+}
+
+#picture4 {
+    grid-area: f;
+}
+
+
 
 #fplink {
     grid-area: b;
