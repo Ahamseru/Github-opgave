@@ -16,6 +16,34 @@ body{
 
 }
 
+#gitpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "a a a a a a a"
+        ". b b b b b ."
+        ". . c e d . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        "f f f f f f f";
+
+}
+
+#githubpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "a a a a a a a"
+        ". b b b b b ."
+        ". . c e d . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        "f f f f f f f";
+
+}
+
 #title {
     grid-area: a;
     text-align: center;
@@ -24,10 +52,23 @@ body{
 
 }
 
+/*Styling for the description section that covers all explanation for Git and Github */
 #description {
     grid-area: b;
     text-align: center;
     border-radius: 25px;
+    background-color: rgb(100, 20, 138);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#gitdescription {
+    grid-area: b;
+    background-color: rgb(100, 20, 138);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#githubdescription {
+    grid-area: b;
     background-color: rgb(100, 20, 138);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
